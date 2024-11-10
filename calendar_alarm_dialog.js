@@ -427,7 +427,6 @@ async function doReadOnlyChecks() {
     gReadOnlyNotification.removeNotification(notification);
   }
 }
-
 /**
  * Close the alarm dialog if there are no further alarm widgets
  */
@@ -437,7 +436,6 @@ function closeIfEmpty() {
     window.close();
   }
 }
-
 /**
  * Handler function called when an alarm entry in the richlistbox is selected
  *
